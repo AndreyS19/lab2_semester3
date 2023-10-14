@@ -25,7 +25,7 @@ public class task2 {
                             prov = false;
 
                         }
-                        if(date==29&&((year%400!=0 && year%100==0)||(year%400!=0&&year%100!=0 && year%4!=0)))
+                        if(date==29&&((year%400!=0 && year%100==0)||(year%400!=0 && year%4!=0)))
                             prov = false;
                     }
                     if((month==4 ||month==6 ||month==9 ||month==11)&&date>30)
